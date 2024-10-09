@@ -15,7 +15,7 @@ C:/Users/maria/OneDrive/Documents/VFXTutorials/VFXTutorial/My project (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61883
+52397
 Successfully changed project path to: C:/Users/maria/OneDrive/Documents/VFXTutorials/VFXTutorial/My project (1)
 C:/Users/maria/OneDrive/Documents/VFXTutorials/VFXTutorial/My project (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/maria/OneDrive/Documents/VFXTutorials/VFXTutorial/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2132] Host "[IP] 10.11.5.81 [Port] 0 [Flags] 2 [Guid] 1754784093 [EditorId] 1754784093 [Version] 1048832 [Id] WindowsEditor(7,Damien) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [35332] Host "[IP] 10.11.5.81 [Port] 0 [Flags] 2 [Guid] 3178208575 [EditorId] 3178208575 [Version] 1048832 [Id] WindowsEditor(7,Damien) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2132] Host "[IP] 10.11.5.81 [Port] 0 [Flags] 2 [Guid] 1754784093 [EditorId] 1754784093 [Version] 1048832 [Id] WindowsEditor(7,Damien) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35332] Host "[IP] 10.11.5.81 [Port] 0 [Flags] 2 [Guid] 3178208575 [EditorId] 3178208575 [Version] 1048832 [Id] WindowsEditor(7,Damien) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 480.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004804 seconds.
-- Loaded All Assemblies, in  0.267 seconds
+Registered in 0.006435 seconds.
+- Loaded All Assemblies, in  3.622 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.175 seconds
-Domain Reload Profiling: 441ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.171 seconds
+Domain Reload Profiling: 3792ms
+	BeginReloadAssembly (3107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (91ms)
-		LoadAssemblies (105ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (3105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (80ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (394ms)
+				TypeCache.ScanAssembly (385ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (176ms)
+	FinalizeReload (171ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (136ms)
+		SetupLoadedEditorAssemblies (135ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,109 +116,56 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\maria\OneDrive\Documents\VFXTutorials\VFXTutorial\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\maria\OneDrive\Documents\VFXTutorials\VFXTutorial\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.851 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.903 seconds
-Domain Reload Profiling: 1752ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 1251ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (645ms)
-		LoadAssemblies (551ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (438ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (132ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (904ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (592ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
+		SetupLoadedEditorAssemblies (485ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (484ms)
-			ProcessInitializeOnLoadMethodAttributes (159ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.18 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5494 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (1.1 MB). Loaded Objects now: 5950.
-Memory consumption went from 211.5 MB to 210.4 MB.
-Total: 4.857400 ms (FindLiveObjects: 0.868300 ms CreateObjectMapping: 0.225900 ms MarkObjects: 3.460200 ms  DeleteObjects: 0.301500 ms)
+Unloading 5497 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.1 MB). Loaded Objects now: 5955.
+Memory consumption went from 213.5 MB to 212.4 MB.
+Total: 2.927900 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.357400 ms  DeleteObjects: 0.175000 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 53782.311399 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b232f2c7c23ca79350ff43187ed20ef') in 0.015469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (1.0 MB). Loaded Objects now: 5951.
-Memory consumption went from 101.2 MB to 100.2 MB.
-Total: 3.911600 ms (FindLiveObjects: 0.672000 ms CreateObjectMapping: 0.198100 ms MarkObjects: 2.897400 ms  DeleteObjects: 0.143200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (1.0 MB). Loaded Objects now: 5951.
-Memory consumption went from 101.2 MB to 100.2 MB.
-Total: 4.011700 ms (FindLiveObjects: 0.801700 ms CreateObjectMapping: 0.213000 ms MarkObjects: 2.862000 ms  DeleteObjects: 0.133900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -235,393 +182,513 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 189.634106 seconds.
-  path: Assets/Shaders/Blood.shadergraph
-  artifactKey: Guid(887af027b6588d04b9390fd152d34941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Blood.shadergraph using Guid(887af027b6588d04b9390fd152d34941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b369ff5cbafc88651b6c687bdba77fda') in 0.013998 seconds
+  Time since last request: 90262.872178 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feaf3a37645985b37bb3eca6cd0ae5e') in 0.006046 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 15.993608 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a2cc56b96f9f921750dc3c9d91f42d') in 0.001474 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 35.758748 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596b766791ff95bdc70e781bae7abb21') in 0.001552 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 23.550191 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08c6a70a064542d34c0653811f94052') in 0.007178 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.522928 seconds.
-  path: Assets/VFX Graphs
-  artifactKey: Guid(d78f160929a5a8247954ca55c5ca99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs using Guid(d78f160929a5a8247954ca55c5ca99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4b99b5af377fc1f726e2ad0849fb03') in 0.000438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 129.139829 seconds.
+  Time since last request: 21.251167 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb704f69c5e2a1b08575392a66271b99') in 0.002965 seconds
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c2a4c4926708daa7bafa7a226ad109') in 0.003377 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 13.486007 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2505dd0ccd1ce5c381529ba3520ace0a') in 0.001501 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 26.745805 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3752d30975348c7ec58370a5e807d98') in 0.001776 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 90.381824 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3200fbf81bdcc5ff1bd345f79996c9e') in 0.001607 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 24.178720 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523ca54e783ced87d0780369353fd221') in 0.001613 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.668308 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea6b7e2588051c6ec5840708abdfd54') in 0.001566 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 16.688222 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2ecd6ff3a4a71024db099d9fa23a4a') in 0.001541 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 20.539728 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4085aea5126fbcfb5447a0bf7fb7d0d9') in 0.004822 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.524327 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8b6f7ecd5808e243b3be5f88917a36') in 0.004071 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 32.924343 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9d2c77aa94ce968b80b6ea27cdaddc') in 0.001422 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 84.795831 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530c2ec7b0cf8ea5a99d423bc2940f8e') in 0.001887 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 16.537207 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdacfa744f8a048faab50beb0c363083') in 0.003121 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.938631 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ceb764b4f485244addf531c0ae9495') in 0.001336 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 13.825258 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305187b0cbd705c2dcc506ffee9efb66') in 0.001443 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 87.039535 seconds.
+  path: Assets/VFX Graphs/MagicOrb.vfx
+  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326857a2857f32201d1b386c7e2c1670') in 0.002838 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.010354 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga
+  artifactKey: Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/DefaultParticle.tga using Guid(276d9e395ae18fe40a9b4988549f2349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979006eaa6e9bdcafac1099378b0c5b0') in 0.007696 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.782411 seconds.
-  path: Assets/VFX Graphs/MagicOrb.vfx
-  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a204979021c6d3c86a3594f023cc8c') in 0.000687 seconds
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/SignedDistanceField.asset
+  artifactKey: Guid(5c2949c31aafddd4e8011ffdebb8fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/SignedDistanceField.asset using Guid(5c2949c31aafddd4e8011ffdebb8fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21527997254ca02263b9456d43668f2') in 0.011355 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 60.827830 seconds.
+  Time since last request: 0.000324 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/Sphere.tga
+  artifactKey: Guid(d01d8874889eebc4ab0cde7f2b3309de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/Sphere.tga using Guid(d01d8874889eebc4ab0cde7f2b3309de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b0d477f243d8992de058a0936655d4') in 0.002583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001416 seconds.
+  path: Packages/com.unity.visualeffectgraph/Textures/vectorfield.asset
+  artifactKey: Guid(08937e3134903c5488be506a2dac71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Textures/vectorfield.asset using Guid(08937e3134903c5488be506a2dac71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b29a1e58f0b7dcb039454c54e556692') in 0.020444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.054781 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c745bea22a3357cd3bb36c8de08d9b4b') in 0.003352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ea238e89d29adf9985db7e9797f6a4') in 0.001936 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 2.751911 seconds.
+  Time since last request: 11.456065 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f33eae60b0a729d8bb7f24b4ac95530') in 0.002753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91730ad30ff39a80fbbc9934258c34a8') in 0.001870 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 5.688887 seconds.
+  Time since last request: 25.859622 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9812d1b088047ec20785e233e76f7f8d') in 0.001641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeb1bf08dd57b27278deaa45862fb81') in 0.001727 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 30.816005 seconds.
+  Time since last request: 8.434246 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb2c9a0967a919013eb65e64212f053') in 0.001751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa186934d0f65074cb779a90962c9c92') in 0.001788 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 23.011916 seconds.
+  Time since last request: 65.167414 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729aaf0872b1874b5a7c37a5143e9032') in 0.002923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4073dd3ce8453fe1f4e71ca25897268') in 0.002911 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 11.973400 seconds.
+  Time since last request: 15.901769 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb319a3829203152e416c376051128a') in 0.001974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6656d860131f87665fbae605f17a1cad') in 0.001735 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 3.654292 seconds.
+  Time since last request: 8.474524 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402dea231b2e15bf69bf2e23d3dc1c42') in 0.001653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555e5f2eb58255be2d90140bc24c8098') in 0.001684 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 56.665365 seconds.
+  Time since last request: 8.171589 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344115800353c190c299f78d5dea350f') in 0.006868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f05a9fadf9c4b62b2187b7df22a35ee') in 0.001820 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 10.351325 seconds.
+  Time since last request: 16.541031 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439e30c27546a1502ea708fe8e410350') in 0.001708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f85dfabf6df4b49f45a7a90104c03') in 0.001697 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 5.810748 seconds.
+  Time since last request: 6.784615 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba631e61648611255ae4deb7fc3241e') in 0.001597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d8d70bf7243789ce25f7824434665d') in 0.002309 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 27.737658 seconds.
+  Time since last request: 25.602240 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5a30f987ca149fea79748b61ec67a7') in 0.002033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b7b283c23764f2dc4fdda4ba19d52a') in 0.001737 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 3.551589 seconds.
+  Time since last request: 7.367972 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e934bea487d2bd70d838368f3e92e81') in 0.001622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fe07e5a64d43c5e0de57429f0cf1d7') in 0.002259 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 8.419830 seconds.
+  Time since last request: 30.831376 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4975219844599689da652f3a8d3cf198') in 0.001640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdb013f162ad1e8de860d6a655510fa') in 0.001811 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 33.502172 seconds.
+  Time since last request: 2.892315 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590df0f76fb4fd71a3bc2a3a8b2c63dd') in 0.001941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f57315ead4e0c1491a6638a447969c') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 37.674950 seconds.
+  Time since last request: 9.455320 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c81004c4df3fb7fc9307a80c505a415') in 0.001768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a000a4bcd2c4cec9251c7ae99b4c772') in 0.001854 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 26.607678 seconds.
+  Time since last request: 6.307586 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6952b7902d921a354bc5cfe2ffa7d9fd') in 0.002735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83cb67ea56c3b3154709872ba913916') in 0.001828 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 6.127925 seconds.
+  Time since last request: 42.035198 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530e79892264fa1fc3dfbed57c8484d7') in 0.001979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01492932c8b16a6a4f99ad1d1624f218') in 0.003015 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 44.709551 seconds.
+  Time since last request: 24.658513 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0eb10568751043ae8bdce632871d68') in 0.001860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504e6c3e43ec8d1e7a5d83f173034a42') in 0.001997 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 2.757303 seconds.
+  Time since last request: 46.088093 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0cae9f9e2fd14f7d0298ab71c80bd2') in 0.001621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf55c8c6ef22a02674df59bf3c39edb') in 0.002011 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 16.735213 seconds.
+  Time since last request: 28.561147 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1442eec0380365efbda4919057f655f3') in 0.003801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e7c1dab178cc1e4fbb438f1f6ec175') in 0.001841 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 7.845818 seconds.
+  Time since last request: 208.665251 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871b872f0ee7e12f7300dbde57a3e44e') in 0.001750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07405a5beb51b17f01eeded3bfe5376a') in 0.002000 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 88.334596 seconds.
+  Time since last request: 1.585658 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7e89be8a6077c0f713b7452f1e166f') in 0.003705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c8fc54b232424e42abb192dfdb43f6') in 0.001957 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 17.128614 seconds.
+  Time since last request: 6.338531 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fb7f03caa6f5ecc38573de44acd8e8') in 0.002139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd7a30e029fed2a09d3beda20b8cd50') in 0.001742 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 1.823180 seconds.
+  Time since last request: 79.455288 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867c107cf50856b7547125f2b5b862bd') in 0.001821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86da75d84c315fadb9d163b8011698b2') in 0.003497 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 8.692810 seconds.
+  Time since last request: 1.473587 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48293d7393692437d666af63419a4af') in 0.001693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bb81a2220d58d6bb23779f94ab36bf') in 0.001710 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 1.525683 seconds.
+  Time since last request: 1.637045 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4480d80d6775732396b22374b9655c6') in 0.001626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de5b84756686dbfafdf2b5c5df6ea6b') in 0.001945 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 41.401696 seconds.
+  Time since last request: 66.361489 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d22c98f59236f1dd03edb52c007a81') in 0.001741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405c5f29b1f21dcb6cdb6bcd03314b8c') in 0.001718 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 45.681052 seconds.
+  Time since last request: 1.787570 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1788517db59d5c33fcad139ca1399b') in 0.001639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6983d416c3794f019ff0df3e55938eb0') in 0.001724 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 5.039848 seconds.
+  Time since last request: 5.657032 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368068e3f7e10397bfab4ff740945888') in 0.001629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec571594146bd92edfc9c5a93ebf08a2') in 0.002018 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 29.713755 seconds.
+  Time since last request: 53.152849 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782ce6fa27c310af91cb56bd97a6aa17') in 0.001843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5ea00210b79292aae69a15d994e1b9') in 0.001875 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 22.482466 seconds.
+  Time since last request: 47.059109 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a23c69f2c20f8158d1eee245cc3650') in 0.001824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda63fe8cd755383a5f9f4a15f930cfa') in 0.001730 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 33.366077 seconds.
+  Time since last request: 14.525728 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af240d418a7e0ba4c0b3f2e4fc98be5') in 0.001697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362e28b75edeac241ec47b9d632d47ee') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 15.574938 seconds.
+  Time since last request: 47.825291 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe4477eebd77fc47ab0918efcf1e0c0') in 0.001630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756688daeb95700b22c6c79c5034831b') in 0.001814 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 25.688558 seconds.
+  Time since last request: 23.784531 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b4e07accba20cd03b0be564c0bc1c9') in 0.002116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c681d7af2fc63dc39117fcdfe03a6a4f') in 0.002005 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 10.124443 seconds.
+  Time since last request: 24.142806 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fd3ab8e89c1f6224f3d9bcac4b85ec') in 0.004844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c1f06eb53c5c32db28d643e83e0c26') in 0.002267 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 15.194333 seconds.
+  Time since last request: 9.379311 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02493ddc395ec985da45f8bd13af6cbf') in 0.002199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a3035da0e3c3d3281afb6d1d28f49c') in 0.002238 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 98.066735 seconds.
+  Time since last request: 12.272259 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31e0b1a72f8e157cda87eaa49f8e9cb') in 0.001716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8644308d367daba3ac3851589d3438d3') in 0.001829 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 8.564242 seconds.
+  Time since last request: 88.524512 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18e2a53cb75eec20cf18451fe3ec69f') in 0.006329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc335d7400fc5e119340398ef41fa1d') in 0.002062 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 16.477132 seconds.
+  Time since last request: 91.753669 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060a5eb7c01e9d97e28476676987962b') in 0.001629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc47804e8f0fbc9b096eddf4f9893ae') in 0.001942 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 9.918226 seconds.
+  Time since last request: 4.480632 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6450076364654b1f4bfe70b10f641f44') in 0.001643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27134c902eac24b44ab2cd3b0319646e') in 0.001813 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 11.731760 seconds.
+  Time since last request: 21.853988 seconds.
   path: Assets/VFX Graphs/MagicOrb.vfx
   artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715e9580f3cbf43a3bda855708692b76') in 0.002854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 26.752343 seconds.
-  path: Assets/VFX Graphs/MagicOrb.vfx
-  artifactKey: Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0012e4f9232353a8e99e85fef52f73f9') in 0.001615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 80.069211 seconds.
-  path: Assets/Scenes/magicOrb.unity
-  artifactKey: Guid(6e27d684aa02dc64ca87bf168e6ff4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/magicOrb.unity using Guid(6e27d684aa02dc64ca87bf168e6ff4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7337edfb521c430043bd1fd9220f19e3') in 0.000515 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.552414 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6379a30a934b82a355b51880f50bf8dd') in 0.000491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.170316 seconds.
-  path: Assets/Scenes/blood.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/blood.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed80ab9c4e3e684e0f545b4b3f2f6c15') in 0.000474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Start importing Assets/VFX Graphs/MagicOrb.vfx using Guid(789a939a3fea59d4e8fa8578ad5f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0b1500fd9b4087788f66414120f9c5') in 0.001887 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 14
